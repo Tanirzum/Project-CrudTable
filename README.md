@@ -1,1 +1,8 @@
-# Project-CrudTable<img width="524" alt="Screenshot_1" src="https://user-images.githubusercontent.com/87113165/196000556-3156cca3-1ab1-4754-9b41-2bb3114c3709.png">
+При Get-запросе мы попадаем в список книг
+<img width="524" alt="Screenshot_1" src="https://user-images.githubusercontent.com/87113165/196000851-3f19e7d1-cb88-4729-823b-8b3d5e23e403.png">
+Этот список получен от БД
+<img width="490" alt="Screenshot_3" src="https://user-images.githubusercontent.com/87113165/196000876-0d095704-393a-41e3-a4a9-93f667708b74.png">
+также при Get-запросе мы попадем в новую страницу для добавление книг в БД
+<img width="446" alt="Screenshot_4" src="https://user-images.githubusercontent.com/87113165/196001009-893ef47f-4afa-4275-8487-c2839cf2161f.png">
+и новую книгу добавляем в БД 
+<img width="490" alt="Screenshot_5" src="https://user-images.githubusercontent.com/87113165/196001049-682694ea-63ea-4dc7-b6b5-288bdf807955.png">
