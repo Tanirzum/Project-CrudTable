@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/2001/XMLSchema">
+<head>
+    <meta charset="UTF-8">
+    <title>New Book</title>
+    <link rel="stylesheet" type="text/css" media="all"
+          href="resources/new.css" th:href="@{/resources/new.css}"/>
+</head>
+<body>
+<h1>Вы можете добавить новую книгу</h1>
+<form th:method="POST" th:action="@{/books}" th:object="${book}">
+    <label for="bookTitle">Book Title: </label>
+    <input type="text" th:field="*{bookTitle}" id="bookTitle"/>
+    <br/>
+    <label for="bookAuthor">Book Author: </label>
+    <input type="text" th:field="*{bookAuthor}" id="bookAuthor"/>
+    <br/>
+    <label for="bookPrice">Book Price: </label>
+    <input type="text" th:field="*{bookPrice}" id="bookPrice"/>
+    <br/>
+    <input class="button" type="submit" value="Create Book">
+</form>
+</body>
+</html>
